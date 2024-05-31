@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+* {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+:root {
+  --bg-web :#111827;
+}
+.bg-site {
+  background-color: #111827;
+}
+.react-multiple-carousel__arrow {
+  display: none !important;
+}
+/* .carousel-control-prev  {
+    display: none;
+}
+.carousel-control-next  {
+    display: none;
+}
+.carousel-indicators {
+    display: none !important;
+} */
+
+.text-fiter {
+  filter: drop-shadow(0px 0px 15px #ff00c8) !important;
+}
+
+.import-hight {
+  height: 100% !important;
+}
+
+.react-multi-carousel-track {
+  height: 100% !important;
+  gap: 0.4rem;
+}
+.react-multi-carousel-item {
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:auto;
+  margin-bottom: auto;
+}
+.text-gradient-b {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #dbeafe 0.89%,
+    #60a5fa 17.23%,
+    #2563eb 42.04%,
+    #9333ea 55.12%,
+    #7e22ce 71.54%,
+    #581c87 100%
+  );
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f172a;
+}
+.card::before {
+
+}
+
+@keyframes rotate{
+  from {
+    transform:rotate(0deg) ;
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.card::after {
+
+
+}
+
+
+
+.text-gradient {
+    background: radial-gradient(
+      64.18% 64.18% at 71.16% 35.69%,
+      #dbeafe 0.89%,
+      #60a5fa 17.23%,
+      #2563eb 42.04%,
+      #9333ea 55.12%,
+      #7e22ce 71.54%,
+      #581c87 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+/* .text-gradient {
+    background: radial-gradient(
+      64.18% 64.18% at 71.16% 35.69%,
+      #def9fa 0.89%,
+      #bef3f5 17.23%,
+      #9dedf0 42.04%,
+      #7de7eb 55.12%,
+      #5ce1e6 71.54%,
+      #33bbcf 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+   */
+  .bg-blue-gradient {
+    background: linear-gradient(
+      157.81deg,
+      #def9fa -43.27%,
+      #bef3f5 -21.24%,
+      #9dedf0 12.19%,
+      #7de7eb 29.82%,
+      #5ce1e6 51.94%,
+      #33bbcf 90.29%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
+.bg-black-gradient {
+    background: linear-gradient(
+      144.39deg,
+      #ffffff -278.56%,
+      #6d6d6d -78.47%,
+      #11101d 91.61%
+    );
+  }
+
+  
+.bg-black-gradient-2 {
+    background: linear-gradient(
+      -168.39deg,
+      #ffffff -278.56%,
+      #6d6d6d -78.47%,
+      #11101d 91.61%
+    );
+  }
+.backgound-b {
+    background-color: linear-gradient(
+        145deg,
+        #d1d5db
+        #4b5563,
+        #374151,
+        #1f2937,
+        #0f172a
+    )
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
